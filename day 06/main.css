@@ -1,0 +1,36 @@
+/* id > class > elements/tags */
+
+.important_link {
+    color: green;
+}
+
+
+
+nav a {
+    color: red;
+}
+
+li > a {
+    color: darkgray;
+}
+
+nav .important_link {
+    color: green;
+}
+
+
+nav #very_imp {
+    color: black;
+}
+
+a.cta {
+    color: brown;
+}
+
+#very_imp ~ a{
+    color: red;
+}
+
+h1 {
+    color: hsla(290, 87%, 60%, 1);
+}

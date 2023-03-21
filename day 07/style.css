@@ -1,0 +1,36 @@
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#one {
+    background-color: skyblue;
+    /* padding-top: 50px;
+    padding-bottom: 500px;
+    padding-right: 10px;
+    padding-left: 100px; */
+    padding: 5rem 1rem 50rem 10rem;
+    border-left: 5px solid red;
+    border-top: 2px dashed greenyellow;
+    /* margin-top: 200px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    margin-left: 20px; */
+    margin: -10rem 5rem 15rem 2rem;
+    display: inline;
+}
+
+
+/* 1px == 1/96 of inch
+1pt ==1/72 of inch */
+p{
+    border: 1em solid green;
+    font-size: 24px;
+}
+
+/* em, rem, vw, vh */

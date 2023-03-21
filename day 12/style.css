@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    /* display: grid;
+    place-items: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* copy, move, zoom-in, zoom-out, help, pointer */
+
+.parent {
+    background-color: green;
+    height: 7rem;
+    width: 7rem;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(1);
+    transition-duration: 1s;
+    box-shadow: 0 0 24px 2px pink;
+}
+
+.parent:hover{
+    background-color: red;
+    transform: scale(0.5);
+}
+
+
+.child {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    border-radius: 50%;
+    transition-duration: 500ms;
+    transition-delay: 1s;
+}
+.child:hover {
+    background-color: green;
+}
+
+h1::first-letter {
+    color: blue;
+}
+
+h1::first-line {
+    background-color: lightblue;
+}
+
+h1::selection {
+    color: white;
+    background-color: black;
+}
+
+input::-webkit-file-upload-button {
+    outline: none;
+    background-color: blue;
+    padding: 6px 8px;
+}
+
+h1 {
+    /* font-family: 'Climate Crisis', cursive; */
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 48px;
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: 4px 4px green;
+
+}
+
+p{
+    line-height: 1.4;
+}
+
+img {
+    filter: blur(1px) saturate(50%);
+    transition-duration: 100ms;
+}
+
+img:hover {
+    filter: blur(0px) saturate(100%);
+}

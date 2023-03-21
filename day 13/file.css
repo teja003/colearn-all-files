@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    padding: 1rem 10rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+div {
+    height: 50%;
+    width: 50%;
+}
+
+img {
+    height:100%;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+        body {
+        padding: 1rem 5rem;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    body {
+        padding: 0.25rem 0.8rem;
+        background-color: aqua;
+    }
+    div {
+        width: 90%;
+    }
+}

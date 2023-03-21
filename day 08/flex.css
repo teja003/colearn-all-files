@@ -1,0 +1,26 @@
+.container {
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: stretch; */
+    /* flex-direction: column; */
+    /* height: 100vh; */
+}
+
+.child {
+    /* height: 100px;
+    width: 100px; */
+    border: 1px solid green;
+    background-color: lightgreen;
+    flex-grow: 1;
+
+}
+
+#ele4{
+    order: -100;
+}
+
+#ele5{
+    order: -120;
+    flex-grow: 3;
+}
